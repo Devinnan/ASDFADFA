@@ -1,4 +1,4 @@
-# 来源于慕课网移动音乐webApp教程
+### 来源于慕课网移动音乐webApp教程
 
 对原程序进行了精简，少了个人中心和排行版的模块功能，避免重复劳动，适合学习。
 
@@ -19,7 +19,9 @@
 注：实现移动端的平滑滚动以及轮播图的制作
 - 其他（如歌词解析库、localStorage的封装库等）
 
-修正源代码中的bug：
+---
+
+### 修正源代码中的bug
 
 在获取歌单列表的时候，会报```jp1 is not definde```。  
 经过测试，发现是```jsonp```封装库在自己默认给回调函数取了一个名字，和后台约定的名字```playlistinfoCallback```不一致。  
@@ -32,9 +34,17 @@
 如图：  
 <img src="http://note.youdao.com/yws/public/resource/6e15c67cb09c8b7d6e2ce8cad9ee5c32/xmlnote/1297ADD47FC145BE98FAC3ED405C892F/20523" width="80%">
 
-以上。
+---
+### 使用
 
-后期将把```scroll```组件抽象出来并做一个类似于手机换页的小demo，以便后续开发使用。
+- npm install --- 加载依赖
+- npm run dev --- 开发环境下运行服务器
+- npm run build --- 打包构建
+- node prod.server.js --- 构建完毕后可启动Node服务器模拟生产环境
+
+后期将把```scroll```组件抽象出来并做一个类似于手机黄页的小demo，以便后续开发使用。
+
+以上。
 
 
 
