@@ -42,7 +42,6 @@
 - npm run build --- 打包构建
 - node prod.server.js --- 构建完毕后可启动Node服务器模拟生产环境
 
-后期将把```scroll```组件抽象出来并做一个类似于手机黄页的小demo，以便后续开发使用。
 
 以上。
 
