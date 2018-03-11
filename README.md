@@ -10,11 +10,11 @@
 - vue全家桶（包括vue\vuex\vue-router）  
 注：vuex主要用于播放器组件状态的管理
 - jsonp（jsonp技术的封装）  
-注：解决跨域的问题、有精力可阅读下源码的具体实现
+注：解决跨域的问题
 - axios（发送http请求）  
 注：结合express来进行转发请求绕过后台的限制
 - fastclick（移动端）  
-注：解决手机端200ms的点击延迟
+注：解决手机端300ms的点击延迟
 - better-scroll（滚动组件）  
 注：实现移动端的平滑滚动以及轮播图的制作
 - 其他（如歌词解析库、localStorage的封装库等）
